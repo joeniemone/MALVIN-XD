@@ -53,7 +53,7 @@ ANTI_BAD: process.env.ANTI_BAD || "false",
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 Status Seen by ᴍᴀʟᴠɪɴ xᴅ 🚀🔥*",
@@ -65,7 +65,7 @@ MODE: process.env.MODE || "public",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 
-AUTO_VOICE: process.env.AUTO_VOICE || "false",
+AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
 
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
